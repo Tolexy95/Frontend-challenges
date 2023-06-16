@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@200;400;600&display=swap');
+
+body{
+font-family: 'Poppins', sans-serif;
+margin: auto;
+justify-content: center;
+align-items: center;
+/*margin: 20px;*/
+box-sizing: border-box;
+font-size: 15px;
+}
+.header{
+    text-align: center;
+    margin: 0;
+    line-height: 30px;
+   margin-top: 50px;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 40px;
+}
+
+.aside{
+    margin-top: 30px;
+}
+    
+
+.supervisor {
+    border-top: 5px solid hsl(180, 62%, 55%);
+    width:450px ;
+    height: 225px;
+    border-radius: 8px;
+    box-shadow: 0px 9px 20px 3px rgba(76, 78, 97, 0.75);
+}
+
+.supervisor img{
+    margin-top: 50px;
+    float: right;
+}
+
+.builder{
+    border-top: 5px solid hsl(0, 78%, 62%);
+    /*line-height: 20px;*/
+    width:450px ;
+    height: 225px;
+    border-radius: 8px;
+    box-shadow: 0px 9px 20px 3px rgba(76, 78, 97, 0.75);
+}
+.builder img{
+   margin-top: 30px;
+   float: right;
+}
+.calculator{
+    border-top: 5px solid hsl(212, 86%, 64%);
+    width:450px ;
+    height: 225px;
+    border-radius: 8px;
+    box-shadow: 0px 9px 20px 3px rgba(76, 78, 97, 0.75);
+}
+.calculator img{
+    margin-top: 30px;
+    float: right;
+ } 
+ .karma{
+    border-top: 5px solid hsl(34, 97%, 64%);
+    width:450px ;
+    height: 225px;
+    border-radius: 8px;
+    box-shadow: 0px 9px 20px 3px rgba(76, 78, 97, 0.75);
+ }
+ .karma img{
+    margin-top: 30px;
+    float: right; 
+ }
+ 
+ footer{
+    margin-top: 40px;   
+ }
+
+ h2{
+    font-size: 35px;
+    font-weight: 200;
+ }
+h1{
+    font-size: 35px;
+    font-weight: 600;
+}
+p{
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+}
+
+
+
+@media screen and (max-width:500px) {
+    section {
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        padding-left: 0;
+    }
+    .supervisor{
+        width: 100%;
+    }
+    .builder{
+      width: 100%;
+    }
+    .karma{
+        width:100%;
+    }
+    .calculator{
+        width:100%; 
+    }
+   
+}
+
+
+

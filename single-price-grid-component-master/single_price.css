@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Hanken+Grotesk:wght@500;700;800&family=Karla:wght@400;700&display=swap");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body {
+  background-color: hsl(204, 43%, 93%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+  height: 450px;
+}
+
+header {
+  text-align: left;
+  opacity: 0.5;
+  height:170px;
+  margin-left: 40px;
+}
+
+main{
+  border-radius: 10px;
+  background: white;
+  width: 650px;
+  height: 300px;
+  box-sizing: border-box;
+  
+}
+main>section{
+    /*background-color: rgba(54, 179, 121, 0.955);*/
+    /*width: 50%;
+    box-sizing: border-box;
+    color: white; 
+}
+
+ main > section:first-of-type {
+  text-align: center;
+  float: left;
+  display: block;
+  border-radius: 0px 0px 0px 10px;
+  background-color: hsl(179, 62%, 43%);
+  box-sizing: border-box;
+}
+
+.dollar{
+  font-size: 30px;
+  font-weight: 700;
+}
+span{
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+main>section:last-of-type {
+    background-color: hsla(179, 83%, 39%, 0.7);
+    float: right;
+    display: block;
+    border-radius: 0px 0px 10px 0px;
+    box-sizing: border-box;
+}
+main>section:last-of-type >div{ 
+  margin-bottom: 25px;
+  margin-left: 10px;
+}
+
+main>section:last-of-type >div >p{
+  margin: 5px;
+}
+
+header h2 {
+  color: aqua;
+}
+header >h3 {
+  color: hsl(71, 73%, 54%);
+}
+button{
+        border-radius: 5px;
+        width:  80%;
+        height: 50px;
+        border: none;
+        margin-top: 0px;
+        background-color: hsl(71, 73%, 54%);
+        color: white;
+        margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
